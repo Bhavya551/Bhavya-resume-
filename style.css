@@ -687,3 +687,9 @@ a:focus, button:focus, input:focus {
     bottom: 10px;
   }
 }
+@media (max-width: 768px) {
+  #popup-aboutme {
+    min-width: 340px !important;
+    overflow-x: auto !important;
+  }
+}
